@@ -3,11 +3,12 @@
 $PluginInfo['nativeemoji'] = [
     'Name' => 'Native Emoji',
     'Description' => 'Aliases for native emoji. Converts 😉 to :wink:.',
-    'Version' => '0.1',
+    'Version' => '0.2',
     'MobileFriendly' => true,
     'Author' => 'Bleistivt',
     'AuthorUrl' => 'http://bleistivt.net',
-    'License' => 'GNU GPL2'
+    'License' => 'GNU GPL2',
+    'GitHub' => 'bleistivt/nativeemoji'
 ];
 
 class NativeEmojiPlugin extends Gdn_Plugin {
@@ -81,7 +82,6 @@ class NativeEmojiPlugin extends Gdn_Plugin {
             'name' => 'Apple Emoji + Native Aliases',
             'author' => 'Apple Inc.',
             'description' => 'Similar to the "Apple Emoji" set but with aliases for native emoji.',
-            'format' => '<img class="emoji" src="%1$s" title="%2$s" alt="%2$s" height="20" />',
             'icon' => '../../plugins/nativeemoji/icon.png',
             'aliases' => $aliases
         ], '/resources/emoji');
