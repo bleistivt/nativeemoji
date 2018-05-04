@@ -1,0 +1,16 @@
+{
+    "name": "Native Emoji",
+    "description": "Aliases for native emoji. Converts \ud83d\ude09 to :wink:.",
+    "version": "0.3",
+    "mobileFriendly": true,
+    "license": "GNU GPL2",
+    "gitHub": "bleistivt/nativeemoji",
+    "key": "nativeemoji",
+    "type": "addon",
+    "authors": [
+        {
+            "name": "Bleistivt",
+            "homepage": "http://bleistivt.net"
+        }
+    ]
+}
