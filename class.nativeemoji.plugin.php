@@ -1,16 +1,5 @@
 <?php
 
-$PluginInfo['nativeemoji'] = [
-    'Name' => 'Native Emoji',
-    'Description' => 'Aliases for native emoji. Converts 😉 to :wink:.',
-    'Version' => '0.2',
-    'MobileFriendly' => true,
-    'Author' => 'Bleistivt',
-    'AuthorUrl' => 'http://bleistivt.net',
-    'License' => 'GNU GPL2',
-    'GitHub' => 'bleistivt/nativeemoji'
-];
-
 class NativeEmojiPlugin extends Gdn_Plugin {
 
     public function emojiExtenderPlugin_init_handler($sender) {
