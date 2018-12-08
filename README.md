@@ -18,3 +18,5 @@ $Configuration['Database']['CharacterEncoding'] = 'utf8mb4';
 $Configuration['Database']['ExtendedProperties']['Collate'] = 'utf8mb4_unicode_ci';
 $Configuration['Database']['ConnectionOptions'][1002] = "set names 'utf8mb4'; set time_zone = '+0:0';";
 ```
+
+**After** applying these changes, visit and run `/utility/structure`.
